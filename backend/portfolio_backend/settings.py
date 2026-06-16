@@ -125,5 +125,9 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://anjali-portfolio-inky.vercel.app",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://anjali-portfolio-inky.vercel.app",
 ]
