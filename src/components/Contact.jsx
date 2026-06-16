@@ -1,8 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiMail, FiMessageSquare, FiUser } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("http://127.0.0.1:8000/api/contact/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: "Portfolio Contact",
+          message: formData.message,
+        }),
+      });
+
+      const data = await response.json();
+
+      alert(data.message);
+
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error(error);
+      alert("Something went wrong");
+    }
+  };
+
   return (
     <section
       id="contact"
@@ -16,7 +61,7 @@ const Contact = () => {
             Get In <span className="text-red-600">Touch</span>
           </h2>
         </div>
-        <form className="space-y-6 bg-gray-200/85 p-8 rounded-xl shadow-md border border-gray-100">
+        <form onSubmit={handleSubmit} className="space-y-6 bg-gray-200/85 p-8 rounded-xl shadow-md border border-gray-100">
           <motion.dev whileHover={{ scale: 1.01 }}>
             <label className="block text-gray-700 mb-2">Name</label>
             <div className="relative">
@@ -27,6 +72,9 @@ const Contact = () => {
                 type="text"
                 className="w-full pl-10 pr-4 py-3 border border-gray-100 rounded-lg focus:ring-2 focus:ring-red-400 focus:border-transparent"
                 placeholder="Enter your name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
               />
             </div>
           </motion.dev>
@@ -40,6 +88,9 @@ const Contact = () => {
                 type="email"
                 className="w-full pl-10 pr-4 py-3 border border-gray-100 rounded-lg focus:ring-2 focus:ring-red-400 focus:border-transparent"
                 placeholder="Enter your email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
               />
             </div>
           </motion.dev>
@@ -53,6 +104,9 @@ const Contact = () => {
                 rows="4"
                 className="w-full pl-10 pr-4 py-3 border border-gray-100 rounded-lg focus:ring-2 focus:ring-red-400 focus:border-transparent"
                 placeholder="write your message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
               />
             </div>
           </motion.dev>
@@ -67,7 +121,10 @@ const Contact = () => {
         </form>
       </div>
       <div className="mt-8 text-center text-gray-800">
-        <p>Or email me directly at: <span className="text-gray-950 font-bold">contact@example.com</span></p>
+        <p>
+          Or email me directly at:{" "}
+          <span className="text-gray-950 font-bold">contact@example.com</span>
+        </p>
       </div>
     </section>
   );
