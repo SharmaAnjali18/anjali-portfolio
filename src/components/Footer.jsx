@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/anjali-sharma-1b000a205/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
@@ -23,7 +23,7 @@ const Footer = () => {
               <FaLinkedin size={20} />
             </a>
             <a
-              href="#"
+              href="https://github.com/SharmaAnjali18"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
@@ -32,7 +32,7 @@ const Footer = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100052216746690"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
@@ -41,7 +41,7 @@ const Footer = () => {
               <FaFacebook size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/annie.elara.18/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
@@ -50,7 +50,7 @@ const Footer = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              href="#"
+              href="https://mail.google.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"

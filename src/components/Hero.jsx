@@ -30,28 +30,28 @@ const Hero = () => {
               className="flex space-x-2 mb-4"
               aria-label="Social media links"
             >
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=100052216746690" aria-label="Facebook">
                 <img
                   src={facebook}
                   alt="Facebook"
                   className="w-14 h-14 hover:scale-110 transition-transform"
                 />
               </a>
-              <a href="#" aria-label="Instagram">
+              <a href="https://www.instagram.com/annie.elara.18/" aria-label="Instagram">
                 <img
                   src={instagram}
                   alt="Instagram"
                   className="w-14 h-14 hover:scale-110 transition-transform"
                 />
               </a>
-              <a href="#" aria-label="GitHub">
+              <a href="https://github.com/SharmaAnjali18" aria-label="GitHub">
                 <img
                   src={github}
                   alt="GitHub"
                   className="w-14 h-14 hover:scale-110 transition-transform"
                 />
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/anjali-sharma-1b000a205/" aria-label="LinkedIn">
                 <img
                   src={linkedin}
                   alt="LinkedIn"

@@ -123,7 +123,7 @@ const Contact = () => {
       <div className="mt-8 text-center text-gray-800">
         <p>
           Or email me directly at:{" "}
-          <span className="text-gray-950 font-bold">contact@example.com</span>
+          <span className="text-gray-950 font-bold">anjalishgkp@gmail.com</span>
         </p>
       </div>
     </section>

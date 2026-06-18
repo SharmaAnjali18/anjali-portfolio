@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import Portfolio from "../assets/portfolio.png";
+import Portfolio from "../assets/portfolio-project-img.JPG";
+import FoodDelivery from "../assets/food-delivery-project-img.JPG";
 import { FiExternalLink } from "react-icons/fi";
 
 // Slick styles
@@ -10,35 +11,35 @@ import "slick-carousel/slick/slick-theme.css";
 const projects = [
   {
     id: 1,
-    title: "Portfolio 1",
+    title: "My Portfolio",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    technologies: ["React", "NodeJs", "MongoDB", "TailwindCss"],
-    demo: "",
+    technologies: ["react", "html5", "tailwind css", "slick-carousel", "framer motion", "api integration", "python", "django", "restapi", "sqlite"],
+    demo: "https://anjali-portfolio-inky.vercel.app/",
     image: Portfolio,
   },
   {
     id: 2,
-    title: "Portfolio 2",
+    title: "Food Delivery Project",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    technologies: ["React", "NodeJs", "MongoDB", "TailwindCss"],
-    demo: "",
-    image: Portfolio,
+    technologies: ["react", "html5", "tailwind css", "react hooks", "redux toolkit"],
+    demo: "https://food-delivery-react-project.vercel.app/",
+    image: FoodDelivery,
   },
   {
     id: 3,
-    title: "Portfolio 3",
+    title: "My Portfolio",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    technologies: ["React", "NodeJs", "MongoDB", "TailwindCss"],
-    demo: "",
+    technologies: ["react", "html5", "tailwind css", "slick-carousel", "framer motion", "api integration", "python", "django", "restapi", "sqlite"],
+    demo: "https://anjali-portfolio-inky.vercel.app/",
     image: Portfolio,
   },
   {
     id: 4,
-    title: "Portfolio 4",
+    title: "Food Delivery Project",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ["React", "NodeJs", "MongoDB", "TailwindCss"],
-    demo: "",
-    image: Portfolio,
+    demo: "https://food-delivery-react-project.vercel.app/",
+    image: FoodDelivery,
   },
 ];
 

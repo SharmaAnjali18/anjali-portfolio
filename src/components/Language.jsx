@@ -1,8 +1,8 @@
 import React from "react";
 
 const language = [
-  { name: "English", level: "Native", proficiency: 100 },
-  { name: "Hindi", level: "Fluent", proficiency: 90 },
+  { name: "English", level: "Native", proficiency: 80 },
+  { name: "Hindi", level: "Fluent", proficiency: 100 },
 ];
 
 const Language = () => {
