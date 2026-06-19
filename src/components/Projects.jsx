@@ -1,7 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-import Portfolio from "../assets/portfolio-project-img.JPG";
-import FoodDelivery from "../assets/food-delivery-project-img.JPG";
+import ProjectOne from "../assets/project-one.JPG"
+import ProjectTwo from "../assets/project-two.JPG"
+import ProjectThree from "../assets/project-three.JPG"
+import ProjectFour from "../assets/portfolio-project-img.JPG";
+import ProjectFive from "../assets/food-delivery-project-img.JPG";
 import { FiExternalLink } from "react-icons/fi";
 
 // Slick styles
@@ -11,35 +14,43 @@ import "slick-carousel/slick/slick-theme.css";
 const projects = [
   {
     id: 1,
-    title: "My Portfolio",
+    title: "HRMS Application",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    technologies: ["react", "html5", "tailwind css", "slick-carousel", "framer motion", "api integration", "python", "django", "restapi", "sqlite"],
-    demo: "https://anjali-portfolio-inky.vercel.app/",
-    image: Portfolio,
+    technologies: ["react.js", "javaScript(ES6+)", "html5", "css3", "bootstrap", "REST APIs", "react hooks(useState,useEffect)", "react-router","git"],
+    demo: "https://alobhahrms.com/login",
+    image: ProjectOne,
   },
   {
     id: 2,
-    title: "Food Delivery Project",
+    title: "Bus Booking Platform",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    technologies: ["react", "html5", "tailwind css", "react hooks", "redux toolkit"],
-    demo: "https://food-delivery-react-project.vercel.app/",
-    image: FoodDelivery,
+    technologies: ["react.js","javaScript(ES6+)","jsx","bootstrap4","REST APIs","react-router","git"],
+    demo: "https://astrofastbooking.com/",
+    image: ProjectTwo,
   },
   {
     id: 3,
+    title: "Seek2Learn",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    technologies: ["react","javascript(ES6+)","html5","css3","bootstrap5","react-router","axios","git"],
+    demo: "https://www.seek2lrn.com/",
+    image: ProjectThree,
+  },
+  {
+    id: 4,
     title: "My Portfolio",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ["react", "html5", "tailwind css", "slick-carousel", "framer motion", "api integration", "python", "django", "restapi", "sqlite"],
     demo: "https://anjali-portfolio-inky.vercel.app/",
-    image: Portfolio,
+    image: ProjectFour,
   },
   {
-    id: 4,
+    id: 5,
     title: "Food Delivery Project",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    technologies: ["React", "NodeJs", "MongoDB", "TailwindCss"],
+    technologies: ["react.js","javascript(ES6+)","html5","tailwind css","redux toolkit","react hooks","vercel"],
     demo: "https://food-delivery-react-project.vercel.app/",
-    image: FoodDelivery,
+    image: ProjectFive,
   },
 ];
 

@@ -6,9 +6,9 @@ const experience = [
     id: "1",
     role: "Frontend Developer",
     company:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Alobha Technologies Pvt. Ltd. Noida, India",
     period: "2023-2025",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    desc: "Developed and maintained responsive React.js applications using reusable components and React Hooks.Integrated REST APIs and implemented dynamic data rendering for business applications.",
     icon: <FaBriefcase className="text-blue-500 text-xl" />,
     type: "work",
   },
@@ -16,19 +16,9 @@ const experience = [
     id: "2",
     role: "Frontend Developer",
     company:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Alobha Technologies Pvt. Ltd. Noida, India",
     period: "2023-2025",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    icon: <FaGraduationCap className="text-green-500 text-xl" />,
-    type: "education",
-  },
-  {
-    id: "3",
-    role: "Frontend Developer",
-    company:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    period: "2023-2025",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    desc: "Developed and maintained responsive React.js applications using reusable components and React Hooks.Integrated REST APIs and implemented dynamic data rendering for business applications.",
     icon: <FaGraduationCap className="text-green-500 text-xl" />,
     type: "education",
   },
