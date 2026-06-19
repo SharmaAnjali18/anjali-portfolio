@@ -14,11 +14,11 @@ const experience = [
   },
   {
     id: "2",
-    role: "Frontend Developer",
+    role: "BTech in Computer Science & Engineering",
     company:
-      "Alobha Technologies Pvt. Ltd. Noida, India",
-    period: "2023-2025",
-    desc: "Developed and maintained responsive React.js applications using reusable components and React Hooks.Integrated REST APIs and implemented dynamic data rendering for business applications.",
+      "Buddha Institute of Technology(AKTU)",
+    period: "2020-2024",
+    desc: "Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/ LOR-əm IP-səm) is a dummy or placeholder text commonly used in graphic design, publishing, and web development. It is typically a corrupted version of De finibus bonorum et malorum.",
     icon: <FaGraduationCap className="text-green-500 text-xl" />,
     type: "education",
   },
