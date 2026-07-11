@@ -10,6 +10,7 @@ import Language from "./components/Language";
 import Project from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import ChatBot from "./components/ChatBoat";
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
       <Project />
       <Contact />
       <Footer />
+      <ChatBot />
     </>
   );
 }

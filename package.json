@@ -12,6 +12,7 @@
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
     "aos": "^2.3.4",
+    "axios": "^1.18.1",
     "framer-motion": "^12.9.1",
     "lucide-react": "^0.501.0",
     "react": "^19.0.0",
